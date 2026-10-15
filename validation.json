@@ -1,0 +1,102 @@
+{
+  "file": "spritesheet.png",
+  "sha256": "00e180758b2d1852a1bcd7cdee0caf59defd8b860043930ea076e41a6c8ee9d3",
+  "encoded_bytes": 2584054,
+  "structural_validation": {
+    "ok": true,
+    "width": 1536,
+    "height": 2288,
+    "sprite_version_number": 2,
+    "transparent_rgb_residue_pixels": 0,
+    "errors": [],
+    "warnings": []
+  },
+  "pets_preflight": {
+    "valid": true,
+    "mime_type": "image/png",
+    "width": 1536,
+    "height": 2288,
+    "sprite_version": 2,
+    "cell_width": 192,
+    "cell_height": 208,
+    "frames_per_row": [
+      6,
+      8,
+      8,
+      4,
+      5,
+      8,
+      6,
+      6,
+      6,
+      8,
+      8
+    ],
+    "errors": []
+  },
+  "motion_quality": {
+    "ok": true,
+    "jump": {
+      "idle_baseline": 202,
+      "jump_baselines": [
+        201,
+        201,
+        173,
+        191,
+        201
+      ],
+      "airborne_lift_pixels": 28,
+      "landing_delta_pixels": 1
+    },
+    "look_registration": {
+      "neutral_center_x": 96.0,
+      "look_centers_x": [
+        96.5,
+        94.5,
+        93.0,
+        93.5,
+        94.0,
+        95.0,
+        95.0,
+        98.0,
+        95.5,
+        99.0,
+        99.5,
+        100.5,
+        103.0,
+        104.0,
+        105.0,
+        105.5
+      ],
+      "look_widths": [
+        109,
+        109,
+        112,
+        111,
+        108,
+        106,
+        104,
+        100,
+        107,
+        100,
+        101,
+        101,
+        100,
+        102,
+        102,
+        101
+      ],
+      "maximum_center_drift_pixels": 9.5,
+      "maximum_width_ratio": 1.12
+    },
+    "errors": [],
+    "warnings": [
+      "look direction 067.5 accepted with a reviewed warning",
+      "look direction 247.5 accepted with a reviewed warning",
+      "337.5->000 diff is a local outlier (3513 pixels vs neighbor average 1617)",
+      "337.5->000 center shift is high (10.3px)"
+    ]
+  },
+  "stored_pixels_verified_identical": true,
+  "visual_review": "Reviewed with documented minor warnings; see docs/quality-notes.md."
+}
